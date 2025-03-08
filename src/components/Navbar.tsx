@@ -3,11 +3,10 @@ import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, List, ListItem
 import MenuIcon from '@mui/icons-material/Menu';
 import { styled } from '@mui/material/styles';
 
-const StyledAppBar = styled(AppBar)(({ theme }) => ({
-  background: 'transparent',
-  boxShadow: 'none',
-  borderBottom: `1px solid ${theme.palette.divider}`,
-}));
+const StyledAppBar = styled(AppBar)`
+  background-color: #0a192f;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+`;
 
 const NavButton = styled(Button)(({ theme }) => ({
   color: theme.palette.text.primary,
