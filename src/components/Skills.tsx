@@ -37,7 +37,7 @@ const skills = [
   },
   {
     category: 'Databases',
-    items: ['MySQL', 'MongoDB', 'PostgreSQL'],
+    items: ['MySQL', 'MongoDB', 'OracleSQL'],
   },
 ];
 

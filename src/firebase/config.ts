@@ -1,8 +1,9 @@
 import { initializeApp } from 'firebase/app';
 import { getDatabase } from 'firebase/database';
-
+// import { getAuth } from 'firebase/auth';
+// import { api_key } from './env';
 const firebaseConfig = {
-  apiKey: "AIzaSyDC8VxBUOUMwlfaQiT0CsIleXOOeZP8Ap4",
+  apiKey: process.env.api_key,
   authDomain: "portfolio-7a1b3.firebaseapp.com",
   databaseURL: "https://portfolio-7a1b3-default-rtdb.asia-southeast1.firebasedatabase.app/",
   projectId: "portfolio-7a1b3",
