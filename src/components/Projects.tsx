@@ -36,7 +36,7 @@ const projects = [
     title: 'Ecommerce Web Application',
     description: 'Developed an eCommerce website using React as the framework and Firebase for the database. Implemented a JavaScript backend to manage and process user complaints efficiently',
     technologies: ['React', 'Firebase', 'Material-UI', 'Node.js', 'Redux'],
-    github: '#',
+    github: 'https://github.com/chirag-92003/Ecommerce.git',
     image: '/images/Screenshot 2025-03-07 221256.png',
     date: '02/2024'
   },
@@ -44,7 +44,7 @@ const projects = [
     title: 'Inquisitve',
     description: 'Used the PaLM API to generate questions from a paragraph, translating user input to English with the googletrans library. Deployed the application using Streamlit for user interaction.',
     technologies: ['Python', 'PaLM API', 'Streamlit', 'googletrans'],
-    github: '#',
+    github: 'https://github.com/chirag-92003/Inquisitve.git',
     image: '/images/Screenshot 2025-03-07 222628.png',
     date: '12/2023'
   },
@@ -52,7 +52,7 @@ const projects = [
     title: 'House Price Prediction',
     description: 'Developed a real estate price prediction model using XGBoost, Python, and Scikit-learn, enhancing it with feature engineering and evaluating it using RMSE and R² score.',
     technologies: ['Python', 'XGBoost', 'Scikit-learn', 'Machine Learning'],
-    github: '#',
+    github: 'https://github.com/chirag-92003/Ensemble_house_pred.git',
     image: '/images/Screenshot 2025-03-07 223224.png',
     date: '09/2024'
   }
@@ -143,7 +143,7 @@ const Projects = () => {
                     <Box sx={{ display: 'flex', gap: 2 }}>
                       <Button
                         startIcon={<GitHubIcon />}
-                        href="https://github.com/chirag-92003"
+                        href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
                         sx={{
