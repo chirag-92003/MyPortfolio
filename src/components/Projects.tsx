@@ -44,7 +44,7 @@ const projects = [
     title: 'Inquisitve',
     description: 'Used the PaLM API to generate questions from a paragraph, translating user input to English with the googletrans library. Deployed the application using Streamlit for user interaction.',
     technologies: ['Python', 'PaLM API', 'Streamlit', 'googletrans'],
-    github: 'https://github.com/chirag-92003/Inquisitve.git',
+    github: 'https://github.com/chirag-92003/GAI.git',
     image: '/images/Screenshot 2025-03-07 222628.png',
     date: '12/2023'
   },
